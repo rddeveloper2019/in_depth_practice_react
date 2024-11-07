@@ -1,6 +1,6 @@
 import "./app.css";
-import { LongUserProfile } from "./user-profile/LongUserProfile.jsx";
+import { LongTaskManager } from "./task-manager/LongTaskManager.jsx";
 
 export const App = () => {
-  return <LongUserProfile userId="fake_id" />;
+  return <LongTaskManager />;
 };
